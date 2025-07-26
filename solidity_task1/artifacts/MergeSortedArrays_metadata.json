@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr2",
+						"type": "uint256[]"
+					}
+				],
+				"name": "merge",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "实现将两个有序数组合并为一个有序数组的功能",
+			"kind": "dev",
+			"methods": {
+				"merge(uint256[],uint256[])": {
+					"details": "合并两个有序数组为一个有序数组",
+					"params": {
+						"arr1": "第一个有序数组",
+						"arr2": "第二个有序数组"
+					},
+					"returns": {
+						"_0": "合并后的有序数组"
+					}
+				}
+			},
+			"title": "MergeSortedArrays",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/05MergeSortedArrays.sol": "MergeSortedArrays"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/05MergeSortedArrays.sol": {
+			"keccak256": "0x10fff585bf00dd2578e818d5ed6778d8a3447095595f0adf22d29ea761ab7401",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4ad06464caf33ecbd48decd5ac06990a62aca57497ec18999f26499706aa48fb",
+				"dweb:/ipfs/Qmays9isbDqrH27HqPQzHrE8EQQjjxF7yVVe73ZCUByQcS"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "reverseString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "实现字符串反转功能",
+			"kind": "dev",
+			"methods": {
+				"reverseString(string)": {
+					"details": "反转输入的字符串",
+					"params": {
+						"input": "要反转的字符串"
+					},
+					"returns": {
+						"_0": "反转后的字符串"
+					}
+				}
+			},
+			"title": "ReverseString",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ReverseString.sol": "ReverseString"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ReverseString.sol": {
+			"keccak256": "0x40b5a00dec107c6ff36051afefc8ac879ebf9287e09ac59ec92adf18fa779553",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://29bba731a6f544fa645928e88a825939425fb8dbab09a224c397795ce5bd300e",
+				"dweb:/ipfs/QmTp4tU4uacLgfYzvTmrGbKUmTqbzWSmdqc5Bp6vCwyJTK"
+			]
+		}
+	},
+	"version": 1
+}

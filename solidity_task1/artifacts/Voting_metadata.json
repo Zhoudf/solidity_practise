@@ -1,0 +1,144 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "candidateVotes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "candidates",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "candidate",
+						"type": "address"
+					}
+				],
+				"name": "getVotes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetVotes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "candidate",
+						"type": "address"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "实现候选人投票功能，包括投票、查询票数和重置票数",
+			"kind": "dev",
+			"methods": {
+				"getVotes(address)": {
+					"details": "返回某个候选人的得票数",
+					"params": {
+						"candidate": "候选人的地址"
+					},
+					"returns": {
+						"_0": "候选人的得票数"
+					}
+				},
+				"resetVotes()": {
+					"details": "重置所有候选人的得票数"
+				},
+				"vote(address)": {
+					"details": "允许用户投票给某个候选人",
+					"params": {
+						"candidate": "候选人的地址"
+					}
+				}
+			},
+			"title": "Voting",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Voting.sol": "Voting"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Voting.sol": {
+			"keccak256": "0x503203613b20800040b2475d8dec595923fd0561f9172504000bdcc37bda29d9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://545109c41d5d1b87f939bb4938a1d431a360df45853c757d88e878029baf71e3",
+				"dweb:/ipfs/QmVyU6VzvSzgQsoUGzLafcqxHKdNYjyR8jhnSAsVBRUsBE"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "binarySearch",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "实现二分查找算法，用于在有序数组中查找目标元素的索引",
+			"kind": "dev",
+			"methods": {
+				"binarySearch(uint256[],uint256)": {
+					"details": "在有序数组中查找目标元素的索引",
+					"params": {
+						"arr": "升序排列的整数数组",
+						"target": "要查找的目标元素"
+					},
+					"returns": {
+						"_0": "如果找到目标元素，返回其在数组中的索引；如果未找到，返回 -1（在 Solidity 中用类型最大值表示）"
+					}
+				}
+			},
+			"title": "BinarySearch",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/06BinarySearch.sol": "BinarySearch"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/06BinarySearch.sol": {
+			"keccak256": "0x1b4b011aabe55a9a87aa4c4c3ea2c994c23a496208886399d52e76f1fce3cb26",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://64964999c6fad6a4d4bc315f9b2e6bc1c70478a345495ac4e5a7ce3ba2ce3f74",
+				"dweb:/ipfs/QmQEuqAxqbjBEqiZpLQt4uHXBvB6bvUiZyzafP5yEghZ2M"
+			]
+		}
+	},
+	"version": 1
+}

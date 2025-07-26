@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "roman",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "实现将罗马数字转换为整数的功能。 罗马数字包含以下七种字符: I， V， X， L，C，D 和 M，对应数值分别为 1, 5, 10, 50, 100, 500, 1000。 通常小数字在大数字右边，但存在六种特例： 1. I 可以放在 V (5) 和 X (10) 的左边，来表示 4 和 9。 2. X 可以放在 L (50) 和 C (100) 的左边，来表示 40 和 90。 3. C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。",
+			"kind": "dev",
+			"methods": {
+				"romanToInt(string)": {
+					"details": "将输入的罗马数字字符串转换为对应的整数。",
+					"params": {
+						"roman": "要转换的罗马数字字符串。"
+					},
+					"returns": {
+						"_0": "转换后的整数。"
+					}
+				}
+			},
+			"title": "RomanToInteger",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RomanToInteger.sol": "RomanToInteger"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RomanToInteger.sol": {
+			"keccak256": "0xe259646148934bd0e1d691bebd1b00f91259065c9bfc22c8890fb6445f65e13c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://85bc98b75bbc44aff21b51d0224b08df16091bdcb760b508fb76d56ea338acea",
+				"dweb:/ipfs/QmVuv7tQ4STpXMYUHRZauNWABCmr6PM37nX1GE4k44iDr9"
+			]
+		}
+	},
+	"version": 1
+}
