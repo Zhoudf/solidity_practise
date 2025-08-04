@@ -1,0 +1,20 @@
+{
+    "name": "My Awesome NFT #1",
+    "description": "这是我的第一个 NFT，具有独特的艺术价值和收藏意义。",
+    "image": "ipfs://bafybeid4lyfph4hwacwehfszc7bmuaifk5fs6kizs2t6s4irznju2o3vs4",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Rare"
+        },
+        {
+            "trait_type": "Power",
+            "value": 85
+        }
+    ],
+    "external_url": ""
+}
